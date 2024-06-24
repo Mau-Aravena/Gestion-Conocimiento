@@ -1,9 +1,9 @@
 # Códigos para leer XML con xml.etree.ElementTree
 ---
-# Fuente 
+## Fuente 
 [Parse XML Files with Python - Basics in 10 Minutes](/docs/bibliografia/Parse_XML_Files_with_Python_-_Basics_in_10_Minutes)
 
-# Archivo XML
+## Archivo XML
 ``` xml
 <data date="2022-10-10">
 	<stock>
@@ -20,7 +20,7 @@
 	</stock>
 </data>
 ```
-# Código en Python 
+## Código en Python 
 ``` python
 import xml.etree.ElementTree as ET
 

@@ -1,6 +1,6 @@
 # Códigos para leer registro de equipos Boomer
 ---
-# Registros de Boomer
+## Registros de Boomer
 Lo registro de los equipos Boomer se obtiene con un pendrive de Epiroc. se copia la carpeta "RIG NO 8999 3986 00" -->"PRODOUT" -->"QUALLOG". Los archivo son formato XML, cuales pueden ser procesados con librería de Python como "xml.etree.ElementTree"([Códigos para leer XML con xml.etree.ElementTree](/docs/capturas/Códigos-para-leer-XML-con-xmletreeElementTree.md)).
 
 ## Registro de ejemplo
@@ -147,7 +147,7 @@ Lo registro de los equipos Boomer se obtiene con un pendrive de Epiroc. se copia
 	</IR:GenTrailer>
 </DRPQual>
 ```
-# Código en Python
+## Código en Python
 ``` python
 aux = 0
 
@@ -274,5 +274,5 @@ for i in tqdm.tqdm(os.listdir("Data/"+carpeta)):
 df.to_csv("Export/export_"+carpeta+".csv")
 ```
 
-# Resultados
+## Resultados
 ![imagen](./anexo/Pasted%20image%2020240612211839.png)
