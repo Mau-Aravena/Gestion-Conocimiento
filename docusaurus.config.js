@@ -72,7 +72,7 @@ const config = {
         title: 'Gestión de Conocimiento',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo pucobre.png',
         },
         items: [
           {to: '/docs/category/bibliografia', label: 'Bibliografia', position: 'left'},
