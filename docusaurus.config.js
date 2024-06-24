@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Gestión de Conocimiento Pucobre',
-  tagline: 'Made with Docusaurus',
+  tagline: 'Build with Docusaurus',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -72,7 +72,7 @@ const config = {
         title: 'Gestión de Conocimiento',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo pucobre.png',
         },
         items: [
           {to: '/docs/category/bibliografia', label: 'Bibliografia', position: 'left'},
