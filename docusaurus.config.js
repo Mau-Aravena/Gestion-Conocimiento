@@ -75,7 +75,7 @@ const config = {
           src: 'img/logo pucobre.png',
         },
         items: [
-          {to: '/docs/category/bibliografia', label: 'Bibliografía', position: 'left'},
+          {to: '/docs/category/bibliografia', label: 'Bibliografia', position: 'left'},
           {to: '/docs/category/capturas', label: 'Capturas', position: 'left'},
           {to: '/docs/category/procesados', label: 'Procesados', position: 'left'},
           {
